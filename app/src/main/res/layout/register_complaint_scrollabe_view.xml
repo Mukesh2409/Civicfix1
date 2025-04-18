@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="392dp"
+                android:layout_height="1037dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.461"
+                app:layout_constraintStart_toStartOf="parent"
+                android:background="#f8eeec"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/complaint_type_input_layout"
+                    android:layout_width="350dp"
+                    android:background="@drawable/universal_border"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="35dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.622"
+                    android:textColorHint="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.05">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/complaint_type_input"
+                        android:layout_width="match_parent"
+                        android:paddingStart="8dp"
+                        android:layout_height="match_parent"
+                        android:hint="Complaint Type"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/complaint_subject_input_layout"
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:textColorHint="@color/black"
+                    android:background="@drawable/universal_border"
+                    android:layout_below="@+id/complaint_type_input_layout"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="35dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.524"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.192">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/complaint_subject_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingStart="8dp"
+                        android:gravity=""
+                        android:hint="Complaint Subject"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/complaint_desc_input_layout"
+                    android:layout_width="350dp"
+                    android:layout_height="316dp"
+                    android:scrollbarStyle="insideOverlay"
+                    android:background="@drawable/universal_border"
+                    android:scrollbars="vertical"
+                    android:layout_below="@+id/complaint_subject_input_layout"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginStart="35dp"
+
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="35dp"
+                    android:textColorHint="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.455"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:hint="Complaint Description"
+                    app:layout_constraintVertical_bias="0.611">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/complaint_desc_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="start"
+                        android:shadowColor="@color/black"
+                        android:padding="8dp"
+                        android:scrollbars="vertical"
+
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <ImageView
+                    android:id="@+id/request_complaint_image"
+                    android:layout_width="282dp"
+                    android:layout_height="251dp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/universal_border"
+                    android:layout_below="@+id/complaint_desc_input_layout"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="62dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginEnd="35dp"
+                    tools:ignore="InvalidId" />
+
+                <ImageButton
+                    android:id="@+id/request_complaint_select_image"
+                    android:layout_width="344dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/request_complaint_image"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginEnd="26dp"
+                    android:background="#3c649F"
+                    android:contentDescription="Description of the button"
+                    android:outlineSpotShadowColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.551"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.336" />
+
+                <TextView
+                    android:id="@+id/request_complaint_select_image_text"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@+id/request_complaint_select_image"
+                    android:layout_alignTop="@+id/request_complaint_select_image"
+                    android:layout_alignEnd="@+id/request_complaint_select_image"
+                    android:layout_alignBottom="@+id/request_complaint_select_image"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="90dp"
+                    android:gravity="center"
+                    android:text="Select Image"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/request_complaint_select_image"
+                    app:layout_constraintEnd_toEndOf="@+id/request_complaint_select_image"
+                    app:layout_constraintHorizontal_bias="0.493"
+                    app:layout_constraintStart_toStartOf="@+id/request_complaint_select_image"
+                    app:layout_constraintTop_toTopOf="@+id/request_complaint_select_image"
+                    app:layout_constraintVertical_bias="0.555" />
+
+
+                <ImageButton
+                    android:id="@+id/request_complaint_capture_image"
+                    android:layout_width="344dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/request_complaint_select_image"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginEnd="26dp"
+                    android:background="#3c649F"
+                    android:contentDescription="Description of the button"
+                    android:outlineSpotShadowColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.551"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.336" />
+
+                <TextView
+                    android:id="@+id/request_complaint_capture_image_text"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@+id/request_complaint_capture_image"
+                    android:layout_alignTop="@+id/request_complaint_capture_image"
+                    android:layout_alignEnd="@+id/request_complaint_capture_image"
+                    android:layout_alignBottom="@+id/request_complaint_capture_image"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="90dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="center"
+                    android:text="Capture Image"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintEnd_toEndOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintHorizontal_bias="0.493"
+                    app:layout_constraintStart_toStartOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintTop_toTopOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintVertical_bias="0.555" />
+
+
+
+                <ImageButton
+                    android:id="@+id/request_complaint_submit_complaint"
+                    android:layout_width="344dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="null"
+                    android:layout_below="@+id/request_complaint_capture_image"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="26dp"
+                    android:layout_marginBottom="43dp"
+                    android:background="#EA6d35"
+                   />
+
+
+                <TextView
+                    android:id="@+id/request_complaint_submit_complaint_text"
+                    android:layout_width="202dp"
+                    android:layout_height="56dp"
+                    android:layout_alignStart="@+id/request_complaint_submit_complaint"
+                    android:layout_alignTop="@+id/request_complaint_submit_complaint"
+                    android:layout_alignEnd="@+id/request_complaint_submit_complaint"
+                    android:layout_alignBottom="@+id/request_complaint_submit_complaint"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:shadowColor="@color/white"
+                    android:text="Submit Complaint"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintEnd_toEndOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintHorizontal_bias="0.493"
+                    app:layout_constraintStart_toStartOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintTop_toTopOf="@+id/request_complaint_capture_image"
+                    app:layout_constraintVertical_bias="0.555" />
+
+
+            </RelativeLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

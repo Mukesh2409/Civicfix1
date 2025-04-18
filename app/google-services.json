@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "579668029369",
+    "firebase_url": "https://androidproject-48ff7-default-rtdb.firebaseio.com",
+    "project_id": "androidproject-48ff7",
+    "storage_bucket": "androidproject-48ff7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579668029369:android:958cc0b52c218d223e1068",
+        "android_client_info": {
+          "package_name": "com.example.Civicfix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK3_WOsnBh3As8gQhzqSpRIcO5pGaUnd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

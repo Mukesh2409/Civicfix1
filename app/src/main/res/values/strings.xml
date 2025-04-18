@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CivicFix</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="select">Select Service</string>
+    <string name="select_service">Select Service</string>
+    <string name="billing_and_more_string">Billing  and More...</string>
+    <string name="complaint_history_string">Complaint History</string>
+    <string name="edit_staff_string">Edit Staff</string>
+    <string name="edit_user_string">Edit User</string>
+    <string name="edit_user_ek3_string">Edit User</string>
+    <string name="add_user_string">ADD USER</string>
+    <string name="existing_user_string">EXISTING USER</string>
+
+
+    <string name="edit_staff_ek3_string">Edit Staff</string>
+    <string name="add_staff_string">ADD STAFF</string>
+    <string name="existing_staff_string">EXISTING STAFF</string>
+
+    <string name="edit_services_ek3_string">Edit Services</string>
+    <string name="add_service_string">ADD SERVICE</string>
+    <string name="existing_service_string">EXISTING SERVICE</string>
+
+
+    <string name="main_get_started_text_string">GET STARTED</string>
+
+    <string name="user_home_page_view_complaints_string">View Complaints</string>
+    <string name="user_home_page_society_guidelines_string">Society Guidelines</string>
+    <string name="user_home_page_register_complaint_string">Register Complaint</string>
+    <string name="user_home_page_important_helpline_numbers_string">Important Helpline Numbers</string>
+    <string name="title_activity_user_home_page" />
+
+    <string name="otp_verification">OTP VERIFICATION</string>
+    <string name="signin_button">signIn Button</string>
+    <string name="hello">Hello</string>
+
+
+</resources>

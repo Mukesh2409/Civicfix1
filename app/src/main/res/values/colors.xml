@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#FFC801</color>
+    <color name="black">#000000</color>
+
+
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="_bg__home_page_ek2_color">#FFFFFF</color>
+    <color name="_bg__bottom_bar_ek1_color">#000000</color>
+    <color name="rectangle_8_color">#F6D6D6</color>
+    <color name="rectangle_8_ek1_color">#F6F7C4</color>
+    <color name="rectangle_11_color">#A1EEBD</color>
+    <color name="rectangle_8_ek2_color">#7BD3EA</color>
+    <color name="_bg__edit_user_ek2_color">#F2FCFF</color>
+    <color name="edit_user_ek3_color">#000000</color>
+    <color name="edit_user_add_user_box_color">#A3E1F1</color>
+    <color name="edit_user_existing_user_box_color">#A9EFC2</color>
+    <color name="_bg__edit_staff_ek2_color">#F2FCFF</color>
+    <color name="edit_staff_ek3_color">#000000</color>
+    <color name="edit_staff_add_staff_box_color">#F9FAD6</color>
+    <color name="edit_staff_exisiting_staff_box_color">#F6D7D7</color>
+    <color name="_bg__edit_services_ek2_color">#F2FCFF</color>
+    <color name="edit_services_ek3_color">#000000</color>
+    <color name="edit_services_add_services_box_color">#A9EFC2</color>
+    <color name="edit_services_existing_service_box_color">#F9FAD6</color>
+    <color name="_bg__main_ek2_color">#FFFFFF</color>
+    <color name="main_get_started_button_color">#ffffff</color>
+    <color name="colortextfirst">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colortextsecond">#777474</color>
+    <color name="final_peach">#f8eeec</color>
+    <color name="final_orange">#EA6d35</color>
+    <color name="final_blue">#3c648c</color>
+
+
+
+</resources>

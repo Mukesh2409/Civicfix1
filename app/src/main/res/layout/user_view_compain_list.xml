@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#f8eeec">
+
+    <LinearLayout
+        android:id="@+id/button_text"
+        android:layout_width="367dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Type:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_complain_view_type_text"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:text="Problem Type"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="21dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Subject:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_complain_view_subject_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-3dp"
+                android:text="Problem"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Status:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_complain_view_verified_text"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:text="Solved"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/user_compliant_view_detailed_complaint"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_complain_recycler_view"
+            android:contentDescription="NULL"
+            android:hint="VIEW"
+            android:textColorHint="@color/black"
+            android:textStyle="bold">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

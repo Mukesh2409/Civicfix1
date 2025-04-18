@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_staff_activity">
+
+
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/page_edit_staff_ek1"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <View
+                android:id="@+id/_bg__edit_staff_ek2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f8eeec"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/top_background2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/edit_staff_ek3"
+                android:layout_width="215dp"
+                android:layout_height="73dp"
+                android:text="@string/edit_staff_ek3_string"
+                android:textColor="#3c649F"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/_bg__edit_staff_ek2"
+                app:layout_constraintHorizontal_bias="0.331"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.474" />
+
+            <ImageButton
+                android:id="@+id/edit_staff_add_staff_box"
+                android:layout_width="268dp"
+                android:layout_height="70dp"
+                android:background="#EA6d35"
+                android:contentDescription="Description of the button"
+                app:layout_constraintBottom_toBottomOf="@+id/_bg__edit_staff_ek2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edit_staff_exisiting_staff_box"
+                app:layout_constraintVertical_bias="0.215" />
+
+            <ImageButton
+                android:id="@+id/edit_staff_exisiting_staff_box"
+                android:layout_width="268dp"
+                android:layout_height="70dp"
+                android:background="#3c649F"
+                android:contentDescription="Description of the button"
+                app:layout_constraintBottom_toBottomOf="@+id/_bg__edit_staff_ek2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/_bg__edit_staff_ek2"
+                app:layout_constraintVertical_bias="0.636" />
+
+            <TextView
+                android:id="@+id/add_staff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_staff_string"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/edit_staff_exisiting_staff_box"
+                app:layout_constraintEnd_toEndOf="@+id/edit_staff_exisiting_staff_box"
+                app:layout_constraintStart_toStartOf="@+id/edit_staff_exisiting_staff_box"
+                app:layout_constraintTop_toTopOf="@+id/edit_staff_exisiting_staff_box" />
+
+            <TextView
+                android:id="@+id/existing_staff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/existing_staff_string"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/edit_staff_add_staff_box"
+                app:layout_constraintEnd_toEndOf="@+id/edit_staff_add_staff_box"
+                app:layout_constraintStart_toStartOf="@+id/edit_staff_add_staff_box"
+                app:layout_constraintTop_toTopOf="@+id/edit_staff_add_staff_box" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

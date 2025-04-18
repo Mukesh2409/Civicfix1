@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_page_activity">
+
+    <RelativeLayout android:id="@+id/user_content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/user_page_home_page_ek1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:backgroundTint="#f8eeec"
+            tools:ignore="ExtraText">
+
+
+            <ImageView
+                android:id="@+id/user_imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/user_hello_text_admin"
+                android:layout_width="67dp"
+                android:layout_height="31dp"
+                android:text="@string/hello"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/user_imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.078"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.213">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/user_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="USER NAME"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/user_imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintStart_toStartOf="@+id/user_imageView2"
+                app:layout_constraintTop_toTopOf="@+id/user_imageView2"
+                app:layout_constraintVertical_bias="0.53" />
+
+
+            <ImageButton
+                android:id="@+id/user_menu_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/menu"
+                android:contentDescription="NULL"
+                app:layout_constraintBottom_toBottomOf="@+id/user_imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.959"
+                app:layout_constraintStart_toStartOf="@+id/user_imageView2"
+                app:layout_constraintTop_toTopOf="@+id/user_imageView2"
+                app:layout_constraintVertical_bias="0.083" />
+
+            <RelativeLayout
+                android:id="@+id/user_relativeLayout"
+                android:layout_width="309dp"
+                android:layout_height="96dp"
+                android:background="@drawable/white_background_admin_homepage"
+                android:gravity="center"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.301">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="230dp"
+                    android:layout_marginBottom="28dp"
+                    android:background="@drawable/contact_us"
+                    android:contentDescription="NULL" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="120dp"
+                    android:background="@drawable/notification_bell"
+                    android:contentDescription="Notification" />
+
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="221dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="26dp"
+                    android:layout_marginBottom="27dp"
+                    android:background="@drawable/star"
+                    android:contentDescription="Rate Us" />
+
+                <TextView
+                    android:layout_width="76dp"
+                    android:layout_height="21dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="119dp"
+                    android:layout_marginTop="71dp"
+                    android:layout_marginEnd="114dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Notification"
+                    android:textColor="#EA6d35"
+                    android:textSize="13sp"
+                    android:textStyle="italic|bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="67dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="226dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="Rate us"
+                    android:textColor="#3c648c"
+                    android:textStyle="italic|bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="71dp"
+                    android:layout_marginEnd="217dp"
+                    android:layout_marginBottom="3dp"
+                    android:text="Contact us"
+                    android:textColor="#3c648c"
+                    android:textStyle="italic|bold">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+<!--            <com.google.android.gms.ads.AdView-->
+<!--                android:id="@+id/user_ad_1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                app:adSize="BANNER"-->
+<!--                app:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.424"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.443">-->
+
+<!--            </com.google.android.gms.ads.AdView>-->
+
+            <ImageButton
+                android:id="@+id/user_home_page_register_complaint_box"
+                android:layout_width="320dp"
+                android:layout_height="52dp"
+                android:background="@drawable/user_button_background"
+                android:contentDescription="Description of the button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.548" />
+
+            <ImageButton
+                android:id="@+id/user_home_page_important_helpline_numbers_box"
+                android:layout_width="320dp"
+                android:layout_height="52dp"
+                android:background="@drawable/user_button_background"
+                android:contentDescription="Description of the button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.845" />
+
+            <ImageButton
+                android:id="@+id/user_home_page_society_guidelines_box"
+                android:layout_width="320dp"
+                android:layout_height="52dp"
+                android:background="@drawable/user_button_background"
+                android:contentDescription="Description of the button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.75" />
+
+            <ImageButton
+                android:id="@+id/user_home_page_view_complaints_box"
+                android:layout_width="320dp"
+                android:layout_height="52dp"
+                android:background="@drawable/user_button_background"
+                android:contentDescription="Description of the button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.643" />
+
+            <TextView
+                android:id="@+id/user_home_page_register_complaint"
+                android:layout_width="238.4dp"
+                android:layout_height="42.4dp"
+                android:text="@string/user_home_page_register_complaint_string"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/user_home_page_register_complaint_box"
+                app:layout_constraintEnd_toEndOf="@+id/user_home_page_register_complaint_box"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="@+id/user_home_page_register_complaint_box"
+                app:layout_constraintTop_toTopOf="@+id/user_home_page_register_complaint_box"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+            <TextView
+                android:id="@+id/user_home_page_important_helpline_numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/user_home_page_important_helpline_numbers_string"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/user_home_page_important_helpline_numbers_box"
+                app:layout_constraintEnd_toEndOf="@+id/user_home_page_important_helpline_numbers_box"
+                app:layout_constraintStart_toStartOf="@+id/user_home_page_important_helpline_numbers_box"
+                app:layout_constraintTop_toTopOf="@+id/user_home_page_important_helpline_numbers_box" />
+
+            <TextView
+                android:id="@+id/user_home_page_view_complaints"
+                android:layout_width="214.4dp"
+                android:layout_height="35.4dp"
+                android:text="@string/user_home_page_view_complaints_string"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/user_home_page_view_complaints_box"
+                app:layout_constraintEnd_toEndOf="@+id/user_home_page_view_complaints_box"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="@+id/user_home_page_view_complaints_box"
+                app:layout_constraintTop_toTopOf="@+id/user_home_page_view_complaints_box" />
+
+
+            <TextView
+                android:id="@+id/user_home_page_society_guidelines"
+                android:layout_width="233.4dp"
+                android:layout_height="36.4dp"
+                android:text="@string/user_home_page_society_guidelines_string"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/user_home_page_society_guidelines_box"
+                app:layout_constraintEnd_toEndOf="@+id/user_home_page_society_guidelines_box"
+                app:layout_constraintStart_toStartOf="@+id/user_home_page_society_guidelines_box"
+                app:layout_constraintTop_toTopOf="@+id/user_home_page_society_guidelines_box" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

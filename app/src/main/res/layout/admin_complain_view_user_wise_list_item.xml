@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:backgroundTint="@color/final_peach">
+
+    <LinearLayout
+        android:id="@+id/button_text"
+        android:layout_width="371dp"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/complain_view_detailed_view"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Name:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_user_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Name of User"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="Phone No:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_phone_no_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Problem"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="Address:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_flat_no_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="3dp"
+                android:text="flat No."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:text="," />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_building_no_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="3dp"
+                android:text="Building No."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:text="," />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_building_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="3dp"
+                android:text="Building Name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:text="UnSolved Complaints:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_unsolved_complains_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="No of unsolved complains"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Solved Complaints:"
+                android:textColor="#EA6d35"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/admin_complaint_view_user_wise_solved_complains_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:text="No of solved complains"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/admin_complain_view_view_user_all_complaint_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_complain_recycler_view"
+            android:backgroundTint="@color/final_orange"
+            android:contentDescription="NULL"
+            android:hint="USER DETAIL"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
